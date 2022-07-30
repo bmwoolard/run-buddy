@@ -37,13 +37,32 @@
 <section>
     <div>
         <h3>Get Started Today!</h3>
-            Fill out this form and one of our trainers will schedule a consult.
-        <div>Your Name</div>
-        <div>Email Address</div>
-        <div>Phone Number</div>
-            Have you worked out with a trainer before?
-            I acknowledge I am at least 18 years of age.
-        <div>Get running!</div>
+        <p>Fill out this form and one of our trainers will schedule a consult.</p>
+        <!-- add form element -->
+        <form>
+            <label for="name">Enter full name:</label>
+            <input type="text" placeholder="Your Name" name="name" id="name" />
+            <label for="email">Enter email address:</label>
+            <input type="email" placeholder="Email Address" name="email" id="name" />
+            <label for="number">Enter a telephone number:</label>
+            <input type="tel" placeholder="Phone Number" name="phone" id="phone" />
+            <p>
+                Have you worked out with a trainer before?
+                <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                <label for="trainer-yes">Yes</label>
+                <input type="radio" name="trainer-confirm" id="trainer-no" />
+                <label for="trainer-no">No</label>
+            </p>
+            <p>
+                <label for="checkbox">
+                    I acknowledge that I am at least 18 years of age.
+                </label>
+                <input type="checkbox" name="age-18-confirm" id="checkbox" />
+            </p>
+            <button type="submit">
+                Get running!
+            </button>
+        </form>
     </div>
 </section>
 
@@ -95,23 +114,23 @@
     <h1>Reach Out</h1>
     <div></div>
     <div>
-        <h2>Run Buddy</h2>
-        <p>Any questions or concerns before signing up?</p>
-        <p>Let us know and we'll be happy to talk to you!</p>
-        <br>
-        <p>55 Main St</p>
-        <p>Some Town, CA</p>
-        <p>12345</p>
-        <p>P: 555.RUN.BUDZ (555.786.2839)</p>
-        <p>E: info@runbuddy.io</p>
+        <h2>Run Buddy</h2><br/>
+        <div>Any questions or concerns before signing up?<br/>
+        Let us know and we'll be happy to talk to you!<br/>
+        55 Main St<br/>
+        Some Town, CA<br/>
+        12345<br/>
+        P: 555.RUN.BUDZ (555.786.2839)<br/>
+        E: info@runbuddy.io<br/>
+        </div>
     </div>
 </section>
 
 <!-- footer -->
 <footer>
     <h2>❤️ Made with love by Run Buddy.</h2>
-    <div><a href="./privacy-policy.html">Read Our Privacy Policy</a>
-        copywrite 2020 Run Buddy, Inc.
+    <div><a href="#">Read Our Privacy Policy</a><br/>
+        &copy; 2020 Run Buddy, Inc.
     </div>
 </footer>
 
