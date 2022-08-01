@@ -53,8 +53,6 @@ footer h2 {
     display: inline;
     color: #024e76;
     font-size: 30px;
-/* why is a margin of 0 necessary here? */
-    margin: 0;
 }
 
 footer div {
